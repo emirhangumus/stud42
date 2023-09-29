@@ -9,6 +9,7 @@ export type CampusNames =
   | 'seoul'
   | 'lausanne'
   | 'mulhouse'
+  | 'turkey'
   | 'tokyo';
 
 /**

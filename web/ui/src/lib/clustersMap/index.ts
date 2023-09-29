@@ -7,6 +7,7 @@ import { Seoul } from './campus/seoul';
 import { Tokyo } from './campus/tokyo';
 import { Vienna } from './campus/vienna';
 import { CampusNames, ICampus } from './types';
+import { Turkey } from './campus/turkey';
 
 /**
  * Campuses represents the list of campuses present in the application.
@@ -29,6 +30,7 @@ export const Campuses: {
   mulhouse: new Mulhouse(),
   seoul: new Seoul(),
   tokyo: new Tokyo(),
+  turkey: new Turkey(),
   vienna: new Vienna(),
 };
 
